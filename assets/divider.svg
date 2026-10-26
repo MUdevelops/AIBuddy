@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 24" width="1200" height="24" role="presentation">
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff2bd6" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#ff2bd6"/>
+      <stop offset="0.8" stop-color="#00e5ff"/>
+      <stop offset="1" stop-color="#00e5ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="g" x="-10%" y="-400%" width="120%" height="900%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="0" y="11" width="1200" height="2" fill="url(#line)" filter="url(#g)"/>
+  <rect x="0" y="8" width="14" height="8" fill="#ffffff" filter="url(#g)">
+    <animate attributeName="x" values="0;1186" dur="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="fill" values="#ff2bd6;#7a3cff;#00e5ff;#7a3cff;#ff2bd6" dur="3.5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="588" y="6" width="24" height="12" fill="#07040f" stroke="#00e5ff" stroke-width="1.5" transform="rotate(0 600 12)">
+    <animate attributeName="stroke" values="#00e5ff;#ff2bd6;#00e5ff" dur="2.4s" repeatCount="indefinite"/>
+  </rect>
+</svg>
