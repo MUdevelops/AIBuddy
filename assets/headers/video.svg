@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 64" width="1200" height="64" role="img" aria-label="Watch the Video">
+<defs>
+<linearGradient id="n" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff2bd6"/><stop offset="0.6" stop-color="#7a3cff"/><stop offset="1" stop-color="#00e5ff"/></linearGradient>
+<linearGradient id="l" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff2bd6"/><stop offset="1" stop-color="#00e5ff" stop-opacity="0"/></linearGradient>
+<filter id="g" x="-10%" y="-80%" width="120%" height="260%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect x="0" y="12" width="8" height="34" fill="#ff2bd6" filter="url(#g)"><animate attributeName="fill" values="#ff2bd6;#00e5ff;#ff2bd6" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0.4;1" dur="1.6s" repeatCount="indefinite"/></rect>
+<text x="28" y="43" font-family="Consolas,'Courier New',monospace" font-size="32" font-weight="800" fill="#00e5ff" opacity="0.7">Watch the Video<animateTransform attributeName="transform" type="translate" values="0 0;0 0;-4 0;3 0;0 0;0 0" keyTimes="0;0.8;0.83;0.87;0.9;1" dur="4s" repeatCount="indefinite"/></text>
+<text x="28" y="43" font-family="Consolas,'Courier New',monospace" font-size="32" font-weight="800" fill="url(#n)" filter="url(#g)">Watch the Video<animate attributeName="opacity" values="1;1;0.55;1;0.8;1" keyTimes="0;0.8;0.83;0.86;0.9;1" dur="4s" repeatCount="indefinite"/></text>
+<rect x="0" y="58" width="1200" height="2" fill="url(#l)" opacity="0.8"/>
+<rect x="0" y="56" width="90" height="6" fill="#fff" filter="url(#g)" opacity="0.9"><animate attributeName="x" values="-90;1200" dur="4s" begin="0.35s" repeatCount="indefinite"/><animate attributeName="fill" values="#ff2bd6;#00e5ff;#ff2bd6" dur="4s" begin="0.35s" repeatCount="indefinite"/></rect>
+</svg>
