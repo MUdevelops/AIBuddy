@@ -10,21 +10,21 @@
 ![JavaScript](https://img.shields.io/badge/Built%20with-Vanilla%20JS-ff2bd6?style=for-the-badge&labelColor=07040f&logo=javascript&logoColor=white)
 [![Stars](https://img.shields.io/github/stars/MUdevelops/AIBuddy?style=for-the-badge&color=00e5ff&labelColor=07040f&logo=github)](https://github.com/MUdevelops/AIBuddy/stargazers)
 
-**[Overview](#-overview)** • **[Features](#-features)** • **[Install](#-installation)** • **[Usage](#-usage)** • **[Customize](#-customize-your-links)** • **[Roadmap](#-roadmap)** • **[FAQ](#-faq)**
+<img src="assets/marquee.svg" alt="Claude, ChatGPT, Gemini, Perplexity, Copilot, Grok, DeepSeek, Mistral, Meta AI, Poe, NotebookLM, Midjourney and your own links" width="100%" />
+
+**[Overview](#overview)** • **[Features](#features)** • **[Screenshots](#screenshots)** • **[Install](#install)** • **[Usage](#usage)** • **[Customize](#customize)** • **[Roadmap](#roadmap)** • **[FAQ](#faq)**
 
 </div>
 
-<img src="assets/divider.svg" alt="" width="100%" />
-
-## ⚡ Overview
+<a id="overview"></a>
+<img src="assets/headers/overview.svg" alt="Overview" width="100%" />
 
 **AIBuddy** is a neon, cyberpunk-styled Chrome extension that puts every AI tool you use behind one icon. Click the icon, see your buttons, press one. Claude, ChatGPT, Gemini and more open in a new tab instantly. No typing, no bookmarks folder, no signup.
 
 > Your AI tools, one click away.
 
-<img src="assets/divider.svg" alt="" width="100%" />
-
-## 🧬 Features
+<a id="features"></a>
+<img src="assets/headers/features.svg" alt="Features" width="100%" />
 
 - 🚀 **One-click launch** - every AI tool is a single button in the popup
 - ➕ **Add custom links** - type a name and a URL, and a new button appears
@@ -35,31 +35,43 @@
 - 🔒 **Private by design** - no account, no analytics, no external server
 - ⌨️ **Keyboard friendly** - visible focus states and Enter-to-add
 
-<img src="assets/divider.svg" alt="" width="100%" />
+<a id="screenshots"></a>
+<img src="assets/headers/screenshots.svg" alt="Screenshots" width="100%" />
 
-## 🖥️ Preview
+<div align="center">
 
-```text
-┌──────────────────────────────────────┐
-│  ⚡ AIBuddy                  [ Edit ] │
-│  Your AI tools, one click away       │
-├──────────────────────────────────────┤
-│  [ Claude ]  [ ChatGPT ]  [ Gemini ] │
-│  [ Perplexity ] [ Copilot ] [ Grok ] │
-│  [ DeepSeek ] [ Mistral ] [ Meta AI ]│
-│  [ Poe ]  [ NotebookLM ] [Midjourney]│
-├──────────────────────────────────────┤
-│     ★  Star the repo on GitHub       │
-│          MUdevelops/AIBuddy          │
-└──────────────────────────────────────┘
-```
+<img src="assets/preview.svg" alt="AIBuddy screenshots: main dashboard, edit mode, add custom links" width="100%" />
 
-<!-- Add a real screenshot: place it at assets/preview.png and replace the block above with
-<img src="assets/preview.png" alt="AIBuddy popup" width="380" /> -->
+</div>
 
-<img src="assets/divider.svg" alt="" width="100%" />
+The slideshow shows one screen at a time:
 
-## 🤖 Supported AI Tools
+| Screen | What it shows |
+| --- | --- |
+| **Main dashboard** | Every AI tool in one place. No signup required. |
+| **Edit mode** | Adding and removing links right from the popup. |
+| **Add custom links** | Creating your own button with a name and a URL. |
+
+<details>
+<summary><b>View each screenshot on its own</b></summary>
+<br/>
+
+**Main dashboard**
+
+<img src="assets/screenshots/Main.png" alt="AIBuddy main dashboard" width="380" />
+
+**Edit mode**
+
+<img src="assets/screenshots/Edit.png" alt="AIBuddy edit mode" width="380" />
+
+**Add custom links**
+
+<img src="assets/screenshots/Add.png" alt="AIBuddy add custom link" width="380" />
+
+</details>
+
+<a id="tools"></a>
+<img src="assets/headers/tools.svg" alt="Supported AI Tools" width="100%" />
 
 These buttons come built in. You can remove any of them or add your own.
 
@@ -78,9 +90,8 @@ These buttons come built in. You can remove any of them or add your own.
 | NotebookLM | https://notebooklm.google.com |
 | Midjourney | https://www.midjourney.com |
 
-<img src="assets/divider.svg" alt="" width="100%" />
-
-## 🔧 Installation
+<a id="install"></a>
+<img src="assets/headers/install.svg" alt="Installation" width="100%" />
 
 AIBuddy loads as an unpacked extension, so you can install it in under a minute.
 
@@ -93,23 +104,21 @@ AIBuddy loads as an unpacked extension, so you can install it in under a minute.
 4. Click **Load unpacked** and select the `AIBuddy` folder.
 5. Pin it with the puzzle-piece menu so the icon stays in your toolbar.
 
-<img src="assets/divider.svg" alt="" width="100%" />
-
-## 🕹️ Usage
+<a id="usage"></a>
+<img src="assets/headers/usage.svg" alt="Usage" width="100%" />
 
 1. Click the **AIBuddy** icon in your toolbar.
 2. Press any button. The tool opens in a new tab and the popup closes.
 
 That is the whole workflow.
 
-<img src="assets/divider.svg" alt="" width="100%" />
-
-## 🛠️ Customize Your Links
+<a id="customize"></a>
+<img src="assets/headers/customize.svg" alt="Customize Your Links" width="100%" />
 
 **Add a button**
 1. Press **Edit** in the popup.
 2. Enter a name (for example `Suno`) and a link (for example `suno.com`).
-3. Press **Add button** or hit Enter. Missing `https://` is added for you.
+3. Press **Add button** or hit Enter. A missing `https://` is added for you.
 
 **Remove a button**
 1. Press **Edit**.
@@ -119,9 +128,8 @@ That is the whole workflow.
 **Start over**
 Press **Reset to defaults** in Edit mode to bring back the original list.
 
-<img src="assets/divider.svg" alt="" width="100%" />
-
-## 🔒 Privacy & Permissions
+<a id="privacy"></a>
+<img src="assets/headers/privacy.svg" alt="Privacy and Permissions" width="100%" />
 
 | Question | Answer |
 | --- | --- |
@@ -133,32 +141,37 @@ Press **Reset to defaults** in Edit mode to bring back the original list.
 
 Tool logos are loaded from Google's public favicon service. If a logo cannot load, AIBuddy shows a neon letter instead.
 
-<img src="assets/divider.svg" alt="" width="100%" />
-
-## 🧪 Tech Stack
+<a id="stack"></a>
+<img src="assets/headers/stack.svg" alt="Tech Stack" width="100%" />
 
 - **Chrome Extension Manifest V3**
 - **HTML5 + CSS3** - custom neon theme, no framework
 - **Vanilla JavaScript** - no build step, no dependencies
 - **Chrome Storage API** - saves your links
 
-<img src="assets/divider.svg" alt="" width="100%" />
-
-## 📁 Project Structure
+<a id="structure"></a>
+<img src="assets/headers/structure.svg" alt="Project Structure" width="100%" />
 
 ```text
 AIBuddy/
-├── manifest.json     # Extension config (MV3)
-├── popup.html        # Popup layout
-├── popup.css         # Cyberpunk neon styling
-├── popup.js          # Buttons, add/remove, storage
-├── icons/            # 16, 32, 48, 128 px icons
-└── assets/           # README banner and divider
+├── manifest.json            # Extension config (MV3)
+├── popup.html               # Popup layout
+├── popup.css                # Cyberpunk neon styling
+├── popup.js                 # Buttons, add/remove, storage
+├── icons/                   # 16, 32, 48, 128 px icons
+├── assets/
+│   ├── banner.svg           # Animated README header
+│   ├── marquee.svg          # Scrolling tool strip
+│   ├── preview.svg          # Screenshot slideshow
+│   ├── cta.svg              # Animated star button
+│   ├── headers/             # Animated section titles
+│   └── screenshots/         # Main.png, Edit.png, Add.png
+└── tools/
+    └── make_slideshow.py    # Rebuilds preview.svg from your screenshots
 ```
 
-<img src="assets/divider.svg" alt="" width="100%" />
-
-## 🗺️ Roadmap
+<a id="roadmap"></a>
+<img src="assets/headers/roadmap.svg" alt="Roadmap" width="100%" />
 
 - [x] One-click AI tool buttons
 - [x] Add, remove and reset links
@@ -170,9 +183,8 @@ AIBuddy/
 - [ ] Export and import your link list
 - [ ] Chrome Web Store release
 
-<img src="assets/divider.svg" alt="" width="100%" />
-
-## 🤝 Contributing
+<a id="contributing"></a>
+<img src="assets/headers/contributing.svg" alt="Contributing" width="100%" />
 
 Ideas and pull requests are welcome.
 
@@ -183,9 +195,8 @@ Ideas and pull requests are welcome.
 
 Found a bug or want a new default tool? [Open an issue](https://github.com/MUdevelops/AIBuddy/issues).
 
-<img src="assets/divider.svg" alt="" width="100%" />
-
-## ❓ FAQ
+<a id="faq"></a>
+<img src="assets/headers/faq.svg" alt="FAQ" width="100%" />
 
 <details>
 <summary><b>Does it work in other browsers?</b></summary>
@@ -211,21 +222,23 @@ Yes. Any <code>http</code> or <code>https</code> link works.
 No. AIBuddy never asks for an account.
 </details>
 
-<img src="assets/divider.svg" alt="" width="100%" />
-
-## 📜 License
+<a id="license"></a>
+<img src="assets/headers/license.svg" alt="License" width="100%" />
 
 Released under the MIT License. Add a `LICENSE` file to the repo to make it official.
 
-<img src="assets/divider.svg" alt="" width="100%" />
+<a id="support"></a>
+<img src="assets/headers/support.svg" alt="Support AIBuddy" width="100%" />
 
 <div align="center">
 
-## ⭐ Support AIBuddy
-
 If AIBuddy saves you clicks, a star helps other people find it.
 
-[![Star on GitHub](https://img.shields.io/badge/%E2%98%85%20Star%20the%20repo-MUdevelops%2FAIBuddy-ff2bd6?style=for-the-badge&labelColor=07040f)](https://github.com/MUdevelops/AIBuddy)
+<a href="https://github.com/MUdevelops/AIBuddy"><img src="assets/cta.svg" alt="Star the repo on GitHub - MUdevelops/AIBuddy" width="480" /></a>
+
+<br/>
+
+<img src="assets/divider.svg" alt="" width="100%" />
 
 Made with neon by **[MUdevelops](https://github.com/MUdevelops)**
 
