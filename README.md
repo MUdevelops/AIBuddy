@@ -8,11 +8,12 @@
 ![No Signup](https://img.shields.io/badge/Signup-Never-00e5ff?style=for-the-badge&labelColor=07040f)
 ![Tracking](https://img.shields.io/badge/Tracking-None-7a3cff?style=for-the-badge&labelColor=07040f)
 ![JavaScript](https://img.shields.io/badge/Built%20with-Vanilla%20JS-ff2bd6?style=for-the-badge&labelColor=07040f&logo=javascript&logoColor=white)
+[![Watch on YouTube](https://img.shields.io/badge/Watch-on%20YouTube-ff2bd6?style=for-the-badge&labelColor=07040f&logo=youtube&logoColor=white)](https://youtu.be/oDpTu_NPVdI)
 [![Stars](https://img.shields.io/github/stars/MUdevelops/AIBuddy?style=for-the-badge&color=00e5ff&labelColor=07040f&logo=github)](https://github.com/MUdevelops/AIBuddy/stargazers)
 
 <img src="assets/marquee.svg" alt="Claude, ChatGPT, Gemini, Perplexity, Copilot, Grok, DeepSeek, Mistral, Meta AI, Poe, NotebookLM, Midjourney and your own links" width="100%" />
 
-**[Overview](#overview)** • **[Features](#features)** • **[Screenshots](#screenshots)** • **[Install](#install)** • **[Usage](#usage)** • **[Customize](#customize)** • **[Roadmap](#roadmap)** • **[FAQ](#faq)**
+**[Overview](#overview)** • **[Watch](#video)** • **[Features](#features)** • **[Screenshots](#screenshots)** • **[Install](#install)** • **[Usage](#usage)** • **[Customize](#customize)** • **[Roadmap](#roadmap)** • **[FAQ](#faq)**
 
 </div>
 
@@ -22,6 +23,19 @@
 **AIBuddy** is a neon, cyberpunk-styled Chrome extension that puts every AI tool you use behind one icon. Click the icon, see your buttons, press one. Claude, ChatGPT, Gemini and more open in a new tab instantly. No typing, no bookmarks folder, no signup.
 
 > Your AI tools, one click away.
+
+<a id="video"></a>
+<img src="assets/headers/video.svg" alt="Watch the Video" width="100%" />
+
+<div align="center">
+
+<a href="https://youtu.be/oDpTu_NPVdI">
+  <img src="https://img.youtube.com/vi/oDpTu_NPVdI/maxresdefault.jpg" alt="Watch the AIBuddy video on YouTube" width="720" />
+</a>
+
+**[▶ Watch the AIBuddy video on YouTube](https://youtu.be/oDpTu_NPVdI)**
+
+</div>
 
 <a id="features"></a>
 <img src="assets/headers/features.svg" alt="Features" width="100%" />
